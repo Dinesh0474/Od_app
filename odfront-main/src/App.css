@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%,#001848 100%);
+  padding: 5%;
+}
+
+/* Add a selector for the following properties */
+*{
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+  font-size: 1rem;
+}
+.reason{
+  background: rgba( 84, 84, 84, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 31, 31, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+height: 20em;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+textarea:focus {
+  outline: none;
+}
+h1{
+  font-size: 40px;
+  font-weight: 300;
+  background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.909), rgb(20, 20, 20));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.addForm{
+  display: flex;
+  flex-direction: column;
+}
+.Submitbtn{
+    background: rgba( 84, 84, 84, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 31, 31, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+width: 5em;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+ #login{
+  color:white;
+  focus:none
+ }
+
+ .nameinput{
+  background: rgba( 84, 84, 84, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 31, 31, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 6px;
+  height: 3em;
+  margin:20px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+ #password{
+  color:white;
+  focus:none
+}
+
+ .passwordinput{
+  background: rgba( 84, 84, 84, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 31, 31, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 6px;
+  height: 3em;
+  margin:20px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.grantbtn, .revokebtn{
+  background: rgba( 84, 84, 84, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 31, 31, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 6px;
+  height: 3em;
+  margin:10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.grantbtn:hover{
+  cursor: pointer;
+  background: rgba(141, 141, 141, 0.25);
+}
+.grantbtn:focus, .revokebtn:focus{
+  background: rgba(232, 232, 232, 0.25);
+}
+
+.revokebtn:hover{
+ cursor: pointer;
+ background: rgba(141, 141, 141, 0.25);
+
+} 
+
+
+.processbtn{
+  background: rgba( 84, 84, 84, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 31, 31, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 6px;
+  height: 3em;
+  margin:10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.processbtn:hover{
+    cursor:pointer;
+    background: rgba(141, 141, 141, 0.25);
+}
+.textbox{
+  background: rgba( 84, 84, 84, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 31, 31, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 6px;
+  height: 2em;
+  margin:20px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.textbox:focus {
+  outline: none;
+}
+h2{
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.909), rgb(20, 20, 20));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.checkbox-wrapper{
+  padding: 0.5em;
+}
+
+.loginsubmit{
+  background: rgba( 84, 84, 84, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 31, 31, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 6px;
+  height: 3em;
+  margin:10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.loginsubmit:hover{
+  cursor: pointer;
+  background: rgba(141, 141, 141, 0.25);
+}
+h6{
+  font-weight: 100;
+}
+
+.glassmorphic-circle {
+  background: rgba( 84, 84, 84, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 31, 31, 0.37 );
+  backdrop-filter: blur( 15px );
+  -webkit-backdrop-filter: blur( 15px );
+  border-radius: 50%; /* Makes it circular */
+  height: 16em;
+  width: 16em; /* Adjust the size as needed */
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styled-table {
+  width: 100vh; /* Adjust the width as needed */
+  border-collapse: collapse;
+  margin: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.styled-table thead th {
+  background-color: rgba(242, 242, 242, 0.1);
+}
